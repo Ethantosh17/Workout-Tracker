@@ -1,0 +1,54 @@
+# Xcode
+*.xcuserstate
+*.xcuserdatad/
+xcuserdata/
+
+# Xcode build artifacts
+build/
+DerivedData/
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods
+Pods/
+*.xcworkspace
+!/*.xcworkspace
+
+# Carthage
+Carthage/Build/
+
+# Xcode Playground pages
+timeline.xctimeline
+playground.xcworkspace
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Simulators
+*.siminfo
+
+# Secrets / credentials
+*.p12
+*.mobileprovision
+AuthKey_*.p8
+Secrets.swift
+secrets.xcconfig
